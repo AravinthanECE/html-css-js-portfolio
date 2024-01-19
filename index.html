@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY_Website</title>
+    <link rel="stylesheet" href="stlye.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+  
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Aravindh</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#certification">Certification</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Aravindh</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+            <div class="menu-link">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#skill" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#project" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#certification" onclick="toggleMenu()">Certification</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                
+            </div>
+            
+        </div>
+       
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="/assests/profile.png" alt="Aravindh profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm </p>
+            <h1 class="title ara" id="A">Aravindh</h1>
+            <p class="secction__text__p2">Engineering student</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" > 
+                <a href="https://drive.google.com/file/d/1VDgpjboBuFK8cGDe_Dtjsr5cHJGDzLN5/view?usp=sharing">Download CV</a>
+                
+                </button>
+                <button class="btn btn-color-1" 
+                onclick=" location.href='./#contact'"> 
+                Contact info
+                </button>
+            </div>
+
+            <div>
+                <div id="social-container">
+                    <img src="assests/Linkedin.png" alt="Linkedin profile"
+                    class="icon" onclick="location.href='https://www.linkedin.com/in/aravinthan-a-8b9156227/' ">
+                    
+                    <img src="assests/github.png" alt="GitHub profile"
+                    class="icon" onclick="location.href='https://github.com/AravinthanECE'">
+                
+                
+                </div>
+            </div>
+            <img src="./assests/arrow.png" alt="arrow icon" class="icon arrow"
+        onclick="location.href='./#about'">
+
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="section__text__p1">Get to know more</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="/assests/about.JPG" alt="profile picture" 
+                class="about-pic"/>
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-containers">
+                        <img src="./assests/experience.png" alt="experience icon"
+                        class="icon"/>
+                        <h3>experience</h3>
+                        <p>Beginner<br> Frontend developement & Backend developement</p>
+                    </div> 
+                    <div class="details-containers">
+                        
+                        <img src="./assests/education.png" alt="education icon"
+                        class="icon"/>
+                        <h3>Education</h3>
+                        <p>Bachelor of Engineering <br> ECE dept </p>
+
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        "As a dedicated student in electronic and communication engineering, I am equipped with a robust foundation in core subjects, complemented by proficient coding skills in Python, Java, and C programming. My passion for problem-solving drives my academic pursuits, reflecting a commitment to mastering the intricacies of cutting-edge technology and its transformative impact."
+                    
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <img src="./assests/arrow.png" alt="arrow icon" class="icon arrow"
+        onclick="location.href='./#skill'">
+
+    </section>
+
+    <section id="skills">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="skills-details-container">
+            <div class="about-containers">
+                <div class="details-containers">
+                    <h2 class="skills-subtitle">TECHNICAL SKILLS</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assests/checkmark.png" alt="skills icon" 
+                            class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assests/checkmark.png" alt="skills icon" 
+                            class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assests/checkmark.png" alt="skills icon" 
+                            class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assests/checkmark.png" alt="skills icon" 
+                            class="icon">
+                            <div>
+                                <h3>JAVA</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assests/checkmark.png" alt="skills icon" 
+                            class="icon">
+                            <div>
+                                <h3>C program</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assests/checkmark.png" alt="skills icon" 
+                            class="icon">
+                            <div>
+                                <h3>Python</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assests/arrow.png" alt="arrow icon" class="icon arrow"
+        onclick="location.href='./#certification'"/>    
+    </section>
+
+    <section id="certification">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">TECHNICAL CERTICATION</h1>
+        <div class="certi-details-container">
+            <div class="about-containers">
+                <div class="details-containers">
+                    <h2 class="certi-subtitle">Certification</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assests/python-logo.png" alt="certi-con" 
+                            class="certi-icon">
+                            <div>
+                                <h3>Python</h3>
+                                <p>( Elite )      <a href="https://drive.google.com/file/d/1AckUjoOOkbbXaVze5vmnZr7yxFK8BlVq/view?usp=sharing">  View</a></p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assests/java-logo.png" alt="certi-icon" 
+                            class="certi-icon">
+                            <div>
+                                <h3>Java</h3>
+                                <p>( Elite )<a href="https://drive.google.com/file/d/1mgy-QSGii23jS4m8QDKpq9QVIrUl5rir/view?usp=sharing"> View</a></p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assests/c-logo.png" alt="certi-icon" 
+                            class="certi-icon">
+                            <div>
+                                <h3>C</h3>
+                                <p>( Elite + Silver )<a href="https://drive.google.com/file/d/1JwbohentCO5d8MTK3Q0wvdASQNcAE0g_/view?usp=sharing"> View</a></p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    
+        <img src="./assests/arrow.png" alt="arrow icon" class="icon arrow"
+        onclick="location.href='./#project'">  
+    </section>
+
+<section id="project">
+        <p class="secction__text__p1"> Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="skills-details-container">
+            <div class="about-containers1">
+             <div class="details-containers color-containers">
+                <div class="article-container">
+                    <img src="./assests/project1.png" alt="project1" 
+                    class="project-img">
+
+                </div>
+                <h2 class="skills-subtitle project1">Project one</h2>
+                <div class="btn-container">
+                    <button class=" btn btn-color-2 project-btn" 
+                    onclick="location.href='https://github.com/naanmudhalvan-SI/PBL-NT-GP--2865-1680654350.git'">
+                GitHub
+                </button>
+
+                <button class=" btn btn-color-2 project-btn" 
+                onclick="location.href='https://drive.google.com/file/d/1gmYk8UKtpumEDes4_YxbC-ZVzkCmX_VG/view?usp=sharing'">
+                Live Demo
+                </button>
+                
+                </div>
+            </div>
+            <!-- <div class="details-containers  color-containers">
+                <div class="article-container">
+                    <img src="./assests/project2.png" alt="project2" 
+                    class="project-img">
+
+                </div>
+                <h2 class="skills-subtitle project1">Project Two</h2>
+                <div class="btn-container">
+                    <p><a href="https://drive.google.com/file/d/1XADkml5CP8VC5KmtP7_kDJn_x1JqC_Tb/view?usp=sharing">View Certificate</a></p>
+
+                </div>
+            </div> -->
+    </div>
+        <img src="./assests/arrow.png" alt="arrow icon" class="icon arrow"
+        onclick="location.href='./#contact'"/>   
+    </section>
+<section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            
+            <div class="contact-info-container">
+                <img src="./assests/linkedin.png" 
+                alt="linkedin icon" 
+                class="icon contact-icon">
+            <p>
+                <a href="https://www.linkedin.com/in/aravinthan-a-8b9156227/">linkedin</a>
+            
+            </p>
+            </div>
+
+            <div class="contact-info-container">
+                <img src="./assests/email.png" 
+                alt="email icon" 
+                class="icon contact-icon email-icon">
+            <p>
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=new">mail me</a>
+            
+            </p>
+            </div>
+
+            <div class="contact-info-container">
+                <img src="./assests/call-logo3.jpg" 
+                alt="call icon" 
+                class="icon contact-icon">
+            <p>
+                <a href="https://www.linkedin.com/in/aravinthan-a-8b9156227/">call me</a>
+            
+            </p>
+            </div>
+        </div>
+    </section>
+
+<footer>
+    <nav>
+        <div class="nav-link-container">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#certification">Certification</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+
+        </div>
+    </nav>
+
+    <p>Copywrite &#169; 2024 Aravindh. All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+    
+</body>
+</html>
