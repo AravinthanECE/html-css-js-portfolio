@@ -292,6 +292,7 @@ gap: 1rem
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
+    flex: 1;
 
 }
  
@@ -320,7 +321,6 @@ gap: 1rem
 
 .details-containers {
     padding: 1.5rem;
-    flex: 1;
     background: white;
     border-radius: 2rem;
     border: rgb(53,53,53) 0.1rem solid;
@@ -359,6 +359,8 @@ gap: 1rem
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
+    
 }
 
 .article-container {
@@ -385,6 +387,7 @@ article.icon{
 #project{
     position: relative;
     text-align: center;
+    
 }
 
 .color-containers {
@@ -475,14 +478,20 @@ footer p {
 }  
 
 
-.about-containers1{
+/* .about-containers1{
     display: flex;
     width: min-content;
+    gap: 2rem;
     justify-content: center;
     margin-bottom: 2rem;
     margin-top: 2rem;
 
-}
+} */
+
+
+
+
+
 
 
 
